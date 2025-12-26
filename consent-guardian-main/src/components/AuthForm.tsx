@@ -222,13 +222,9 @@ const AuthForm = ({ onSuccess, embedded = false }: AuthFormProps) => {
           </div>
         </div>
 
-        <Button 
-          variant="outline"
-              </svg>
-              Sign in with Google
-            </>
-          )}
-        </Button>
+        <Button variant="outline" onClick={handleGoogleSignIn}>
+  Sign in with Google
+</Button>
 
         <p className="text-center text-sm text-muted-foreground mt-8">
           Privacy-first. User-controlled. Verifiable.
